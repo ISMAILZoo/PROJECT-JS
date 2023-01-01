@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'segoe UI',Tahoma,Geneva,Verdana, sans-serif;
+}
+.top-header{
+    background-color: rgb(50, 185, 185);
+}
+header{
+    min-width: 100vw;
+    background-color:transparent;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 100;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+}
+.logo-img{
+    height: 90px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(26, 107, 25);
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: rgb(216, 227, 231);
+}
+.btn{
+    background-color: aquamarine;
+    padding: 12px 22px ;
+    border-radius: 35px;
+    color: black;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(171, 197, 69);
+}
+
+
+span{
+    color: blue;
+}
+
+div #c{
+    text-align: center;
+    font-size: 45px;
+}
+button{
+ 
+    display: block;
+    margin: auto;
+    margin-bottom: 60px; 
+    height: 50px;
+    width: 120px;
+    background-color: orangered;
+    color: white;
+}
+
+footer{
+background-color:rgb(9, 63, 59);
+height: 10%;
+}
+
+.fffoter{
+    background-color:rgb(56, 24, 78);
+    text-align: center;
+    color: white;
+    text-decoration:wavy;
+    
+}
+
+.backgroundd{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.background::before{
+    content: '';
+    background-image:url(img.jpg);
+    background-repeat: no-repeat;
+    background-size:55%;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.47;
+
+}
+h1{
+    text-align: center;
+    position: relative;
+    color: white;
+    width: 75%;
+    font-style: italic;
+    text-decoration: wavy;
+}
+button{
+    text-align: center;
+    position: relative;
+    color: rgb(245, 245, 245);
+}
+#while{
+    position: relative;
+    color: white;
+    width: 76%;
+    font-style: bold;
+    font-size: 150%;
+}
+
+  
+

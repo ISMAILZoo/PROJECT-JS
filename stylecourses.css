@@ -1,0 +1,113 @@
+.Cours{
+    padding: 20px 40px;
+    display: inline-block;
+    /*flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    transition: 0.3s eas-in-out;*/
+    }
+    .all{
+        padding: 50px;
+    }
+    .Cours:hover{
+    box-shadow: 0px 5px 15px black;
+    cursor: pointer;
+    }
+    .Cours p{
+    font-size: 18px;
+    color: rgb(49,48,48);
+    margin: 5px 0;
+    }
+    .Cours span{
+        color: rgb(131,131,131);
+    }
+    
+body{
+    font-family: 'segoe UI',Tahoma,Geneva,Verdana, sans-serif;}
+    .top-header{
+        background-color: rgb(50, 185, 185);
+    }
+    header{
+        min-width: 100vw;
+        background-color:transparent;
+    }
+    header nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 100;
+    }
+    .btn{
+        background-color: aquamarine;
+        padding: 12px 22px ;
+        border-radius: 35px;
+        color: black;
+        transition: 0.4s;
+        text-decoration: none;
+    }
+    .btn:hover{
+        background-color: rgb(171, 197, 69);
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-items: flex-start;
+    }
+    .logo-img{
+        height: 90px;
+    }
+    nav ul{
+        list-style-type: none;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 0 15px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(26, 107, 25);
+        font-weight: 600;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+    nav ul li a:hover{
+        color: rgb(216, 227, 231);
+    }
+    .slider{
+        border-radius: 12px;
+        transition: opacity 0.2s;
+        opacity: 0.7;
+        -webkit-transition: 0.2s;
+        background: linear-gradient(90deg,rgb(117,252,117) 60%, rgb(214,214,214) 60%);
+    }
+    .slider::after{
+        content: '100';
+        color: blue;
+        font-size: 2rm;
+      
+        
+    }
+    .slidecontainer{
+        width: 75%;
+        margin-top: 200px;
+    }
+
+    .slider::before{
+        content: '0';
+        color: blue;
+        
+    }
+    footer{
+        background-color:rgb(9, 63, 59);
+        height: 10%;
+        }
+        
+        .fffoter{
+            background-color:rgb(56, 24, 78);
+            text-align: center;
+            color: white;
+            text-decoration:wavy;
+            
+        }
+   
